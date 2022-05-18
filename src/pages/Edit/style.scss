@@ -1,0 +1,17 @@
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 45px 10%;
+
+  &-content {
+    width: 100%;
+    &__buttons {
+      width: 16%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+$primary-color: #ffffff;
+$secondary-color: #1b1d29;
+$background-color: #f3f2f1;
+$background-color-odd-table-elements: #f5f5f5;
+$primary-text-color: #343e47;
+$active-color: #45b491;
+$background-active-color: #2e2e3a;
+$custom-button-bg-color: #363642;
+$secondary-text-color: #484e6a;
+$tertiary-text-color: #9aa2a1;
+$header-table-text-color: #3c3c3c;
+$placeholder-color: #9e9e9e;
+
+:root {
+  --background-color: #{$background-color};
+  --primary-color: #{$primary-color};
+  --primary-text-color: #{$primary-text-color};
+  --secondary-color: #{$secondary-color};
+  --active-color: #{$active-color};
+  --background-active-color: #{$background-active-color};
+  --custom-button-bg-color: #{$custom-button-bg-color};
+  --secondary-text-color: #{$secondary-text-color};
+  --tertiary-text-color: #{$tertiary-text-color};
+  --background-color-odd-table-elements: #{$background-color-odd-table-elements};
+  --header-table-text-color: #{$header-table-text-color};
+  --placeholder-color: #{$placeholder-color};
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  .app {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .app-container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

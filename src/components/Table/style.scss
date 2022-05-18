@@ -1,0 +1,19 @@
+.table {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+
+  &__container {
+    width: 100%;
+
+    .table__row {
+      &:nth-child(even) {
+        background-color: var(--background-color-odd-table-elements);
+      }
+    }
+  }
+}

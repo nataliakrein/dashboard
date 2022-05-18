@@ -1,0 +1,44 @@
+.table-head {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 62px;
+  background-color: var(--primary-color);
+
+  &__content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px 20px;
+    height: 100%;
+
+    .table-head__item {
+      font-weight: 500;
+      font-size: 0.75rem;
+      color: var(--header-table-text-color);
+      display: flex;
+      align-items: center;
+    }
+    .table-head__first-column {
+      width: 25%;
+      display: flex;
+    }
+    .table-head__second-column {
+      width: 20%;
+      display: flex;
+    }
+    .table-head__third-column {
+      width: 20%;
+      display: flex;
+    }
+    .table-head__fourth-column {
+      width: 20%;
+      display: flex;
+    }
+    .table-head__fifth-column {
+      width: 15%;
+      display: flex;
+    }
+  }
+}

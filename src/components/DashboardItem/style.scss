@@ -1,0 +1,26 @@
+.dashboard-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 160px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+  background-color: var(--primary-color);
+
+  &__icon {
+    svg {
+      width: 71px;
+      height: 71px;
+      color: #828d8c;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+  }
+}

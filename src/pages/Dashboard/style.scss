@@ -1,0 +1,15 @@
+.dashboard {
+  margin: 41px 44px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: var(--primary-text-color);
+  }
+  &__items {
+    margin-top: 22px;
+    display: flex;
+    column-gap: 26px;
+  }
+}
