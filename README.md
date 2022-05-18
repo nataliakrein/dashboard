@@ -4,7 +4,7 @@ O projeto consiste em uma aplicação ReactJS que permite cadastrar empresas e l
 
 A inspiração do projeto foi retirada do repositório <a href="https://github.com/felipefialho/frontend-challenges">frontend-challenges</a>, mais especificamente da companhia <a href="https://github.com/agrotis-io/desafio-front">Agrotis</a>.
 
-Para visitar o projeto, <a href="https://myreadsproject.netlify.app/">clique aqui</a>
+Para visitar o projeto, <a href="https://dashboard-companies.netlify.app/">clique aqui</a>
 
 ## 🛠 Stacks
 Para o desenvolvimento deste projeto utilizei as seguintes ferramentas:
@@ -26,6 +26,5 @@ git clone https://github.com/nataliakrein/dashboard project_name
 yarn/npm install
 yarn/npm start
 ```
-
 ## 
 ##### Coded with ❤ by <a href="https://github.com/nataliakrein/">Natália Krein</a>
